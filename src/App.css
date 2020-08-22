@@ -1,16 +1,32 @@
+body{
+  background-color: #61dafb;
+}
+
 .App {
-  text-align: center;
+  text-align: left;
+  font-style: italic;
+  padding: 20px;
+  font-weight: 800;
+  font-size: xx-large;
+  font-family: sans-serif;
+  background-color: navy;
+  color: aliceblue;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Image {
+  width: 400px;
+  align-self: center;
+  padding: 40px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.ImageDiv {
+  padding: 20px;
+  border-style: inherit; 
+}
+
+.Text {
+  padding: 30px;
+  font-size: x-large;
 }
 
 .App-header {
@@ -26,13 +42,4 @@
 
 .App-link {
   color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
